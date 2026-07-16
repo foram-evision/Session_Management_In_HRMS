@@ -1,0 +1,411 @@
+Folder PATH listing
+Volume serial number is 503B-0C28
+C:.
+³   .gitignore
+³   HRMS.POC.sln
+³   structure.txt
+³   
+ÃÄÄÄHRMS.API
+³   ³   appsettings.Development.json
+³   ³   appsettings.json
+³   ³   HRMS.API.csproj
+³   ³   HRMS.API.csproj.user
+³   ³   HRMS.API.http
+³   ³   Program.cs
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   appsettings.Development.json
+³   ³           ³   appsettings.json
+³   ³           ³   FluentValidation.AspNetCore.dll
+³   ³           ³   FluentValidation.DependencyInjectionExtensions.dll
+³   ³           ³   FluentValidation.dll
+³   ³           ³   HRMS.API.deps.json
+³   ³           ³   HRMS.API.dll
+³   ³           ³   HRMS.API.exe
+³   ³           ³   HRMS.API.pdb
+³   ³           ³   HRMS.API.runtimeconfig.json
+³   ³           ³   HRMS.API.staticwebassets.endpoints.json
+³   ³           ³   HRMS.Application.dll
+³   ³           ³   HRMS.Application.pdb
+³   ³           ³   HRMS.Domain.dll
+³   ³           ³   HRMS.Domain.pdb
+³   ³           ³   HRMS.Infrastructure.dll
+³   ³           ³   HRMS.Infrastructure.pdb
+³   ³           ³   Humanizer.dll
+³   ³           ³   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+³   ³           ³   Microsoft.AspNetCore.Cryptography.Internal.dll
+³   ³           ³   Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+³   ³           ³   Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+³   ³           ³   Microsoft.Bcl.AsyncInterfaces.dll
+³   ³           ³   Microsoft.CodeAnalysis.CSharp.dll
+³   ³           ³   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+³   ³           ³   Microsoft.CodeAnalysis.dll
+³   ³           ³   Microsoft.CodeAnalysis.Workspaces.dll
+³   ³           ³   Microsoft.EntityFrameworkCore.Abstractions.dll
+³   ³           ³   Microsoft.EntityFrameworkCore.Design.dll
+³   ³           ³   Microsoft.EntityFrameworkCore.dll
+³   ³           ³   Microsoft.EntityFrameworkCore.Relational.dll
+³   ³           ³   Microsoft.Extensions.DependencyModel.dll
+³   ³           ³   Microsoft.Extensions.Identity.Core.dll
+³   ³           ³   Microsoft.Extensions.Identity.Stores.dll
+³   ³           ³   Microsoft.Extensions.Options.dll
+³   ³           ³   Microsoft.IdentityModel.Abstractions.dll
+³   ³           ³   Microsoft.IdentityModel.JsonWebTokens.dll
+³   ³           ³   Microsoft.IdentityModel.Logging.dll
+³   ³           ³   Microsoft.IdentityModel.Protocols.dll
+³   ³           ³   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+³   ³           ³   Microsoft.IdentityModel.Tokens.dll
+³   ³           ³   Microsoft.OpenApi.dll
+³   ³           ³   Mono.TextTemplating.dll
+³   ³           ³   Npgsql.dll
+³   ³           ³   Npgsql.EntityFrameworkCore.PostgreSQL.dll
+³   ³           ³   Swashbuckle.AspNetCore.Swagger.dll
+³   ³           ³   Swashbuckle.AspNetCore.SwaggerGen.dll
+³   ³           ³   Swashbuckle.AspNetCore.SwaggerUI.dll
+³   ³           ³   System.CodeDom.dll
+³   ³           ³   System.Composition.AttributedModel.dll
+³   ³           ³   System.Composition.Convention.dll
+³   ³           ³   System.Composition.Hosting.dll
+³   ³           ³   System.Composition.Runtime.dll
+³   ³           ³   System.Composition.TypedParts.dll
+³   ³           ³   System.IdentityModel.Tokens.Jwt.dll
+³   ³           ³   
+³   ³           ÃÄÄÄcs
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄde
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄes
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄfr
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄit
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄja
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄko
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄpl
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄpt-BR
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄru
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄtr
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÃÄÄÄzh-Hans
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.resources.dll
+³   ³           ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³           ³       
+³   ³           ÀÄÄÄzh-Hant
+³   ³                   Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³                   Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³                   Microsoft.CodeAnalysis.resources.dll
+³   ³                   Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³                   
+³   ÃÄÄÄControllers
+³   ³       AuthController.cs
+³   ³       EmployeeController.cs
+³   ³       HRController.cs
+³   ³       OrganizationController.cs
+³   ³       
+³   ÃÄÄÄMiddleware
+³   ³       ExceptionHandlingMiddleware.cs
+³   ³       ExceptionMiddleware.cs
+³   ³       
+³   ÃÄÄÄobj
+³   ³   ³   HRMS.API.csproj.nuget.dgspec.json
+³   ³   ³   HRMS.API.csproj.nuget.g.props
+³   ³   ³   HRMS.API.csproj.nuget.g.targets
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³           ³   ApiEndpoints.json
+³   ³           ³   apphost.exe
+³   ³           ³   HRMS.API.AssemblyInfo.cs
+³   ³           ³   HRMS.API.AssemblyInfoInputs.cache
+³   ³           ³   HRMS.API.assets.cache
+³   ³           ³   HRMS.API.csproj.AssemblyReference.cache
+³   ³           ³   HRMS.API.csproj.BuildWithSkipAnalyzers
+³   ³           ³   HRMS.API.csproj.CoreCompileInputs.cache
+³   ³           ³   HRMS.API.csproj.FileListAbsolute.txt
+³   ³           ³   HRMS.API.csproj.Up2Date
+³   ³           ³   HRMS.API.dll
+³   ³           ³   HRMS.API.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   HRMS.API.genruntimeconfig.cache
+³   ³           ³   HRMS.API.GlobalUsings.g.cs
+³   ³           ³   HRMS.API.MvcApplicationPartsAssemblyInfo.cache
+³   ³           ³   HRMS.API.MvcApplicationPartsAssemblyInfo.cs
+³   ³           ³   HRMS.API.pdb
+³   ³           ³   rjsmcshtml.dswa.cache.json
+³   ³           ³   rjsmrazor.dswa.cache.json
+³   ³           ³   rpswa.dswa.cache.json
+³   ³           ³   staticwebassets.build.endpoints.json
+³   ³           ³   staticwebassets.build.json
+³   ³           ³   staticwebassets.build.json.cache
+³   ³           ³   staticwebassets.references.upToDateCheck.txt
+³   ³           ³   staticwebassets.removed.txt
+³   ³           ³   
+³   ³           ÃÄÄÄEndpointInfo
+³   ³           ³       HRMS.API.json
+³   ³           ³       HRMS.API.OpenApiFiles.cache
+³   ³           ³       
+³   ³           ÃÄÄÄref
+³   ³           ³       HRMS.API.dll
+³   ³           ³       
+³   ³           ÃÄÄÄrefint
+³   ³           ³       HRMS.API.dll
+³   ³           ³       
+³   ³           ÀÄÄÄstaticwebassets
+³   ÀÄÄÄProperties
+³           launchSettings.json
+³           
+ÃÄÄÄHRMS.Application
+³   ³   DependencyInjection.cs
+³   ³   HRMS.Application.csproj
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÀÄÄÄnet8.0
+³   ³               HRMS.Application.deps.json
+³   ³               HRMS.Application.dll
+³   ³               HRMS.Application.pdb
+³   ³               HRMS.Domain.dll
+³   ³               HRMS.Domain.pdb
+³   ³               
+³   ÃÄÄÄCommon
+³   ³       ApiResponse.cs
+³   ³       AppConstants.cs
+³   ³       
+³   ÃÄÄÄDTOs
+³   ³   ÃÄÄÄAuth
+³   ³   ³       LoginDto.cs
+³   ³   ³       RefreshTokenRequestDto.cs
+³   ³   ³       RegisterDto.cs
+³   ³   ³       TokenResponseDto.cs
+³   ³   ³       
+³   ³   ÃÄÄÄEmployee
+³   ³   ³       CreateEmployeeDto.cs
+³   ³   ³       EmployeeResponseDto.cs
+³   ³   ³       UpdateEmployeeDto.cs
+³   ³   ³       
+³   ³   ÃÄÄÄHR
+³   ³   ³       CreateHRDto.cs
+³   ³   ³       HRResponseDto.cs
+³   ³   ³       
+³   ³   ÀÄÄÄOrganization
+³   ³           CreateOrganizationDto.cs
+³   ³           OrganizationResponseDto.cs
+³   ³           
+³   ÃÄÄÄInterfaces
+³   ³       IAuthService.cs
+³   ³       IEmployeeRepository.cs
+³   ³       IEmployeeService.cs
+³   ³       IHRRepository.cs
+³   ³       IHRService.cs
+³   ³       IOrganizationRepository.cs
+³   ³       IOrganizationService.cs
+³   ³       IRefreshTokenRepository.cs
+³   ³       
+³   ÃÄÄÄobj
+³   ³   ³   HRMS.Application.csproj.nuget.dgspec.json
+³   ³   ³   HRMS.Application.csproj.nuget.g.props
+³   ³   ³   HRMS.Application.csproj.nuget.g.targets
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³           ³   HRMS.App.83A5D7FA.Up2Date
+³   ³           ³   HRMS.Application.AssemblyInfo.cs
+³   ³           ³   HRMS.Application.AssemblyInfoInputs.cache
+³   ³           ³   HRMS.Application.assets.cache
+³   ³           ³   HRMS.Application.csproj.AssemblyReference.cache
+³   ³           ³   HRMS.Application.csproj.CoreCompileInputs.cache
+³   ³           ³   HRMS.Application.csproj.FileListAbsolute.txt
+³   ³           ³   HRMS.Application.dll
+³   ³           ³   HRMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   HRMS.Application.GlobalUsings.g.cs
+³   ³           ³   HRMS.Application.pdb
+³   ³           ³   
+³   ³           ÃÄÄÄref
+³   ³           ³       HRMS.Application.dll
+³   ³           ³       
+³   ³           ÀÄÄÄrefint
+³   ³                   HRMS.Application.dll
+³   ³                   
+³   ÃÄÄÄServices
+³   ³       AuthService.cs
+³   ³       EmployeeService.cs
+³   ³       HRService.cs
+³   ³       OrganizationService.cs
+³   ³       
+³   ÀÄÄÄValidators
+³           CreateEmployeeValidator.cs
+³           CreateHRValidator.cs
+³           CreateOrganizationValidator.cs
+³           LoginValidator.cs
+³           RegisterValidator.cs
+³           UpdateEmployeeValidator.cs
+³           
+ÃÄÄÄHRMS.Domain
+³   ³   HRMS.Domain.csproj
+³   ³   
+³   ÃÄÄÄBase
+³   ³       BaseEntity.cs
+³   ³       
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÀÄÄÄnet8.0
+³   ³               HRMS.Domain.deps.json
+³   ³               HRMS.Domain.dll
+³   ³               HRMS.Domain.pdb
+³   ³               
+³   ÃÄÄÄEntities
+³   ³       ApplicationUser.cs
+³   ³       Employee.cs
+³   ³       Organization.cs
+³   ³       RefreshToken.cs
+³   ³       
+³   ÃÄÄÄEnums
+³   ³       UserRole.cs
+³   ³       
+³   ÀÄÄÄobj
+³       ³   HRMS.Domain.csproj.nuget.dgspec.json
+³       ³   HRMS.Domain.csproj.nuget.g.props
+³       ³   HRMS.Domain.csproj.nuget.g.targets
+³       ³   project.assets.json
+³       ³   project.nuget.cache
+³       ³   
+³       ÀÄÄÄDebug
+³           ÀÄÄÄnet8.0
+³               ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³               ³   HRMS.Domain.AssemblyInfo.cs
+³               ³   HRMS.Domain.AssemblyInfoInputs.cache
+³               ³   HRMS.Domain.assets.cache
+³               ³   HRMS.Domain.csproj.CoreCompileInputs.cache
+³               ³   HRMS.Domain.csproj.FileListAbsolute.txt
+³               ³   HRMS.Domain.dll
+³               ³   HRMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+³               ³   HRMS.Domain.GlobalUsings.g.cs
+³               ³   HRMS.Domain.pdb
+³               ³   
+³               ÃÄÄÄref
+³               ³       HRMS.Domain.dll
+³               ³       
+³               ÀÄÄÄrefint
+³                       HRMS.Domain.dll
+³                       
+ÀÄÄÄHRMS.Infrastructure
+    ³   DependencyInjection.cs
+    ³   HRMS.Infrastructure.csproj
+    ³   
+    ÃÄÄÄbin
+    ³   ÀÄÄÄDebug
+    ³       ÀÄÄÄnet8.0
+    ³               HRMS.Application.dll
+    ³               HRMS.Application.pdb
+    ³               HRMS.Domain.dll
+    ³               HRMS.Domain.pdb
+    ³               HRMS.Infrastructure.deps.json
+    ³               HRMS.Infrastructure.dll
+    ³               HRMS.Infrastructure.pdb
+    ³               HRMS.Infrastructure.runtimeconfig.json
+    ³               
+    ÃÄÄÄData
+    ³       ApplicationDbContext.cs
+    ³       
+    ÃÄÄÄIdentity
+    ³       IdentitySeed.cs
+    ³       
+    ÃÄÄÄMigrations
+    ³       20260613133943_InitialCreate.cs
+    ³       20260613133943_InitialCreate.Designer.cs
+    ³       ApplicationDbContextModelSnapshot.cs
+    ³       
+    ÃÄÄÄobj
+    ³   ³   HRMS.Infrastructure.csproj.nuget.dgspec.json
+    ³   ³   HRMS.Infrastructure.csproj.nuget.g.props
+    ³   ³   HRMS.Infrastructure.csproj.nuget.g.targets
+    ³   ³   project.assets.json
+    ³   ³   project.nuget.cache
+    ³   ³   
+    ³   ÀÄÄÄDebug
+    ³       ÀÄÄÄnet8.0
+    ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    ³           ³   HRMS.Inf.BA81F186.Up2Date
+    ³           ³   HRMS.Infrastructure.AssemblyInfo.cs
+    ³           ³   HRMS.Infrastructure.AssemblyInfoInputs.cache
+    ³           ³   HRMS.Infrastructure.assets.cache
+    ³           ³   HRMS.Infrastructure.csproj.AssemblyReference.cache
+    ³           ³   HRMS.Infrastructure.csproj.CoreCompileInputs.cache
+    ³           ³   HRMS.Infrastructure.csproj.FileListAbsolute.txt
+    ³           ³   HRMS.Infrastructure.dll
+    ³           ³   HRMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+    ³           ³   HRMS.Infrastructure.genruntimeconfig.cache
+    ³           ³   HRMS.Infrastructure.GlobalUsings.g.cs
+    ³           ³   HRMS.Infrastructure.pdb
+    ³           ³   
+    ³           ÃÄÄÄref
+    ³           ³       HRMS.Infrastructure.dll
+    ³           ³       
+    ³           ÀÄÄÄrefint
+    ³                   HRMS.Infrastructure.dll
+    ³                   
+    ÀÄÄÄRepositories
+            EmployeeRepository.cs
+            HRRepository.cs
+            OrganizationRepository.cs
+            RefreshTokenRepository.cs
+            
