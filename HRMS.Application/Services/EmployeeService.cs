@@ -44,15 +44,37 @@ public class EmployeeService : IEmployeeService
                 Email = dto.Email,
                 UserName = dto.Email,
                 PhoneNumber = dto.PhoneNumber,
+                Address = dto.Address,
+
                 NormalizedEmail = dto.Email.ToUpperInvariant(),
                 NormalizedUserName = dto.Email.ToUpperInvariant(),
+
                 OrganizationId = callerUser.OrganizationId.Value,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow,
                 CreatedByUserId = callerId
             };
 
+
             var result = await _userManager.CreateAsync(hrUser, dto.Password);
+
+            if (!result.Succeeded)
+            {
+                return ApiResponse<UserListItemDto>.Failure(
+                    "Failed to create HR user.",
+                    result.Errors.Select(e => e.Description).ToList());
+            }
+
+            // Reload user from database
+            var savedUser = await _userManager.FindByEmailAsync(dto.Email);
+
+            Console.WriteLine("====================================");
+            Console.WriteLine($"DTO Address     : {dto.Address}");
+            Console.WriteLine($"Object Address  : {hrUser.Address}");
+            Console.WriteLine($"Database Address: {savedUser?.Address}");
+            Console.WriteLine("====================================");
+
+
             if (!result.Succeeded)
                 return ApiResponse<UserListItemDto>.Failure("Failed to create HR user.", result.Errors.Select(e => e.Description).ToList());
 
@@ -88,6 +110,7 @@ public class EmployeeService : IEmployeeService
                 Email = dto.Email,
                 UserName = dto.Email,
                 PhoneNumber = dto.PhoneNumber,
+                Address = dto.Address,
                 NormalizedEmail = dto.Email.ToUpperInvariant(),
                 NormalizedUserName = dto.Email.ToUpperInvariant(),
                 OrganizationId = callerUser.OrganizationId.Value,
@@ -242,10 +265,23 @@ public class EmployeeService : IEmployeeService
             if (identityUser.OrganizationId != callerUser?.OrganizationId)
                 return ApiResponse<UserListItemDto>.Failure(AppConstants.Messages.Unauthorized);
 
-            string assignedRole = AppConstants.Roles.HR;
+            string assignedRole;
+
             if (await _userManager.IsInRoleAsync(identityUser, AppConstants.Roles.Admin))
             {
                 assignedRole = AppConstants.Roles.Admin;
+            }
+            else if (await _userManager.IsInRoleAsync(identityUser, AppConstants.Roles.HR))
+            {
+                assignedRole = AppConstants.Roles.HR;
+            }
+            else if (await _userManager.IsInRoleAsync(identityUser, "Employee"))
+            {
+                assignedRole = "Employee";
+            }
+            else
+            {
+                assignedRole = "Unknown";
             }
 
             var creator = identityUser.CreatedByUserId.HasValue ? await _userManager.FindByIdAsync(identityUser.CreatedByUserId.Value.ToString()) : null;
@@ -267,6 +303,14 @@ public class EmployeeService : IEmployeeService
             if (hrUser.OrganizationId != callerUser?.OrganizationId) return ApiResponse<UserListItemDto>.Failure(AppConstants.Messages.Unauthorized);
 
             hrUser.FullName = $"{dto.FirstName} {dto.LastName}".Trim();
+
+            hrUser.Email = dto.Email;
+            hrUser.UserName = dto.Email;
+            hrUser.NormalizedEmail = dto.Email.ToUpperInvariant();
+            hrUser.NormalizedUserName = dto.Email.ToUpperInvariant();
+            hrUser.PhoneNumber = dto.PhoneNumber;
+            hrUser.Address = dto.Address;
+
             hrUser.UpdatedAt = DateTime.UtcNow;
 
             await _userManager.UpdateAsync(hrUser);
@@ -298,6 +342,7 @@ public class EmployeeService : IEmployeeService
                 identityUser.NormalizedEmail = dto.Email.ToUpperInvariant();
                 identityUser.NormalizedUserName = dto.Email.ToUpperInvariant();
                 identityUser.PhoneNumber = dto.PhoneNumber;
+                identityUser.Address = dto.Address;
                 identityUser.FullName = $"{dto.FirstName} {dto.LastName}".Trim();
                 identityUser.UpdatedAt = DateTime.UtcNow;
 
@@ -361,7 +406,10 @@ public class EmployeeService : IEmployeeService
         return MapToDtoWithExplicitRole(user, creatorName, AppConstants.Roles.HR);
     }
 
-    private static UserListItemDto MapToDtoWithExplicitRole(ApplicationUser user, string creatorName, string role)
+    private static UserListItemDto MapToDtoWithExplicitRole(
+    ApplicationUser user,
+    string creatorName,
+    string role)
     {
         var nameParts = (user.FullName ?? string.Empty).Split(' ', 2);
 
@@ -373,7 +421,9 @@ public class EmployeeService : IEmployeeService
             LastName = nameParts.Length > 1 ? nameParts[1] : string.Empty,
             Email = user.Email ?? string.Empty,
             PhoneNumber = user.PhoneNumber ?? string.Empty,
-            Address = role == AppConstants.Roles.Admin ? "N/A (Admin Account)" : "N/A (HR Account)",
+
+            // Return the real address stored in ApplicationUser
+            Address = user.Address,
             CreatedBy = user.CreatedByUserId,
             CreatedByName = creatorName,
             OrganizationId = user.OrganizationId ?? Guid.Empty,

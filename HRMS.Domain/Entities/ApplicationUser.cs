@@ -19,7 +19,7 @@ public class ApplicationUser : IdentityUser<Guid>
     /// Organization to which the user belongs.
     /// </summary>
     public Guid? OrganizationId { get; set; }
-
+    public string Address { get; set; } = string.Empty;
     /// <summary>
     /// Indicates whether the user account is active.
     /// </summary>
