@@ -203,9 +203,12 @@ public class EmployeeService : IEmployeeService
         }
 
         // Default query fallback if parameter field stands empty
-        if (!targetRoles.Any())
+        // Role filter is mandatory
+        if (string.IsNullOrWhiteSpace(roleFilter))
         {
-            targetRoles.Add("Employee");
+            return ApiResponse<List<UserListItemDto>>.Failure(
+                "Role filter is required. Please provide one or more roles. Allowed values: Admin, HR, Employee."
+            );
         }
 
         // Process Identity Layer Roles (Admin / HR)
